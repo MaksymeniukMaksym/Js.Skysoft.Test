@@ -1,0 +1,33 @@
+.objectInner, .object, .block
+ {
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.block { 
+    height: 350px;
+    width: 1000px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.object {
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+}
+
+.objectInner {
+    height: 100px;
+    width: 200px;
+}
+
+.collorOn{
+    background-color:  #ffff00;
+}
