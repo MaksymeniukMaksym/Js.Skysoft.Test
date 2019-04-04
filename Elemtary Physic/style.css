@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#field {
+  background-color: black;
+  width: 800px;
+  height: 600px;
+  float: left;
+}
+
+
+.square {
+  width: 130px;
+  height: 128px;
+  float: left;
+}
+
+#square1 {
+  background-color: red;
+}
+
+#square2 {
+  background-color: blue;  
+}
+
+.draggable {
+  cursor: pointer;
+}
